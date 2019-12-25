@@ -1,4 +1,3 @@
-#
 # Cookbook:: devessentials
 # Recipe:: default
 #
@@ -7,6 +6,18 @@
 # Nano confirmed
 # VSCode plll
 
-Hello...this is a git push.
+# Ruby variable
+hello = 'Hello...this is a git push.'
+string_1 = 'This change is testing my new git branch.'
 
-This change is testing my new git branch.
+puts 'hello world'
+
+10.times do
+  puts "Hello, Ruby!"
+end
+
+puts "\n"
+
+3.times do
+  print "Hello, Chef!\n"
+end
